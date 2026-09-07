@@ -5,11 +5,13 @@ services:
       APP_HOST: noillion-kaspa-mining-suite-2_server_1
       APP_PORT: 8080
   server:
-    image: ghcr.io/noillion-labs/kaspa-mining-suit-2-community-app@sha256:f3791c19158118f8e4e5e45c0438af073fc8037944ab96afdd953404f3696993
+    image: ghcr.io/noillion-labs/kaspa-mining-suit-2-community-app@sha256:5a441eeaba74411c4cd0b05d043163fb98c28d343358af5621a8caacf0fc021d
     user: "1000:1000"
     restart: unless-stopped
     stop_grace_period: 2m
     environment:
+      # Password code is retained but disabled for this community preview.
+      SUITE_AUTH_REQUIRED: "false"
       SUITE_PASSWORD: "${APP_PASSWORD}"
       KASPAD_ADDRESS: noillion-kaspa-mining-suite-2_node_1:16110
       NODE_LOG_DIR: /node-logs
@@ -35,7 +37,7 @@ services:
       start_period: 30s
       retries: 3
   node:
-    image: ghcr.io/noillion-labs/kaspa-mining-suit-2-community-app@sha256:f3791c19158118f8e4e5e45c0438af073fc8037944ab96afdd953404f3696993
+    image: ghcr.io/noillion-labs/kaspa-mining-suit-2-community-app@sha256:5a441eeaba74411c4cd0b05d043163fb98c28d343358af5621a8caacf0fc021d
     user: "1000:1000"
     restart: unless-stopped
     stop_grace_period: 2m
