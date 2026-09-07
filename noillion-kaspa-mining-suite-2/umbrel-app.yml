@@ -4,7 +4,7 @@ name: Kaspa Mining Suite 2.0
 tagline: Your node, your miners, a live view of Kaspa
 icon: https://raw.githubusercontent.com/NoillioN-Labs/kaspa-mining-suit-2-community-app/main/noillion-kaspa-mining-suite-2/icon.svg
 category: finance
-version: "0.1.1"
+version: "0.1.2"
 port: 5560
 description: >-
   Development preview with a dedicated Kaspa node, supervised official Stratum
@@ -23,6 +23,6 @@ path: ""
 defaultUsername: ""
 deterministicPassword: true
 releaseNotes: >-
-  Fix Umbrel app credential display. The app password remains the Umbrel-generated
-  deterministic password. Native AMD64 and ARM64 image stays digest-pinned.
+  Disable the in-app password prompt for this community preview. The retained
+  password code can be re-enabled later; the image remains digest-pinned.
 gallery: []
