@@ -8,9 +8,9 @@ Umbrel:
 
 https://github.com/NoillioN-Labs/umbrel-community-app-store
 
-Open this community store and install or update **Kaspa Mining Suite 2.0** to **0.2.0**. This community preview opens without an additional in-app password prompt. The dedicated Kaspa node must synchronize before miners can connect.
+Open this community store and install or update **Kaspa Mining Suite 2.0** to **0.3.0**. This community preview opens without an additional in-app password prompt. The dedicated Kaspa node must synchronize before miners can connect.
 
-Version 0.2.0 adds a persistent mobile menu, sortable worker hashrate and contribution, more resilient compact topology, and Analytics with exact node-resolved reward totals, composition coverage, resolution states and a reward ledger. Unresolved rewards are excluded. Some node contexts cannot prove a component breakdown and are shown as unavailable.
+Version 0.3.0 turns Analytics into a visual dashboard with a cumulative realised-reward graph, verified composition donut, colour-coded DAG resolution and block outcomes, a statistical mining-outlook gauge, an event timeline, and a compact recent-rewards view. The full evidence ledger remains available on demand. Unresolved and Red discoveries remain visible but are excluded from realised rewards.
 
 UI: **5560** · miner Stratum: **55556** · node P2P: **16121**. Existing data directories and ports are retained. Both services use the same immutable multi-platform container image digest. Download a database backup before updating; this version upgrades the reward schema.
 
