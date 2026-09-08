@@ -2,9 +2,9 @@ manifestVersion: 1
 id: noillion-kaspa-mining-suite-2
 name: Kaspa Mining Suite 2.0
 tagline: Your node, your miners, a live view of Kaspa
-icon: https://raw.githubusercontent.com/NoillioN-Labs/kaspa-mining-suit-2-community-app/main/noillion-kaspa-mining-suite-2/icon.svg
+icon: https://raw.githubusercontent.com/NoillioN-Labs/kaspa-mining-suit-2-community-app/main/noillion-kaspa-mining-suite-2/icon.svg?v=0.2.0
 category: finance
-version: "0.1.2"
+version: "0.2.0"
 port: 5560
 description: >-
   Development preview with a dedicated Kaspa node, supervised official Stratum
@@ -23,6 +23,9 @@ path: ""
 defaultUsername: ""
 deterministicPassword: true
 releaseNotes: >-
-  Disable the in-app password prompt for this community preview. The retained
-  password code can be re-enabled later; the image remains digest-pinned.
+  Sticky mobile navigation, sortable worker hashrate and contribution, a more
+  resilient compact live topology, and Analytics with exact node-resolved reward
+  totals and a detailed ledger. Official unmodified Kaspa icon. Existing ports
+  and data are retained. Back up the database before this reward-schema upgrade.
+  This preview retains password-free in-app access for Umbrel testing.
 gallery: []
