@@ -8,11 +8,11 @@ Umbrel:
 
 https://github.com/NoillioN-Labs/umbrel-community-app-store
 
-Open this community store and install or update **Kaspa Mining Suite 2.0** to **0.3.0**. This community preview opens without an additional in-app password prompt. The dedicated Kaspa node must synchronize before miners can connect.
+Open this community store and install or update **Kaspa Mining Suite 2.0** to **0.4.0**. This community preview opens without an additional in-app password prompt. The dedicated Kaspa node must synchronize before miners can connect.
 
-Version 0.3.0 turns Analytics into a visual dashboard with a cumulative realised-reward graph, verified composition donut, colour-coded DAG resolution and block outcomes, a statistical mining-outlook gauge, an event timeline, and a compact recent-rewards view. The full evidence ledger remains available on demand. Unresolved and Red discoveries remain visible but are excluded from realised rewards.
+Version 0.4.0 keeps the live Overview updating when its event stream or an individual API response is malformed, adds independent recovery polling, and reports clear component health for the node, bridge, and application. It highlights the key hashrate and synchronization metrics, adds the previous-day block comparison, improves the block celebration wording, and adds the validated support-development panel used by the companion solo-mining app. The Umbrel credentials prompt remains disabled while password protection is disabled.
 
-UI: **5560** · miner Stratum: **55556** · node P2P: **16121**. Existing data directories and ports are retained. Both services use the same immutable multi-platform container image digest. Download a database backup before updating; this version upgrades the reward schema.
+UI: **5560** · miner Stratum: **55556** · node P2P: **16121**. Existing data directories, ports, Analytics dashboard, and reward schema are retained. Both services use the same immutable multi-platform container image digest.
 
 This is a development preview for Umbrel testing. Physical mining acceptance is still pending. Never enter wallet seeds or private keys.
 
