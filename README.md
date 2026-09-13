@@ -8,9 +8,9 @@ Umbrel:
 
 https://github.com/NoillioN-Labs/umbrel-community-app-store
 
-Open this community store and install or update **Kaspa Mining Suite 2.0** to **0.5.0**. This community preview opens without an additional in-app password prompt. The dedicated Kaspa node must synchronize before miners can connect.
+Open this community store and install or update **Kaspa Mining Suite 2.0** to **0.6.0**. This community preview opens without an additional in-app password prompt. The dedicated Kaspa node must synchronize before miners can connect.
 
-Version 0.5.0 preserves verified Blue and Red ledger outcomes when later node queries are temporarily unavailable and repairs affected local records during migration. It adds per-block effort, durable worker effort and last-block timing, an optional close-only block celebration, consistent hero metrics, responsive hashrate scaling, worker status dots, interval-based reward composition history, and moves node reward-query health to the Kaspa node page. Version 0.4.0 resilience, component health indicators, previous-day comparison, and support-development panel are retained.
+Version 0.6.0 adds connected-peer direction states, inline IBD identification, inbound/outbound peer composition, and guidance for supporting the Kaspa network. Reward composition history now plots the exact components of each verified discovered block instead of empty time intervals, and the mobile hashrate graph keeps its range labels and plot readable. Version 0.5.0 ledger retention, effort tracking, worker timing, optional celebrations, resilient live data, component health, and support-development features are retained.
 
 UI: **5560** · miner Stratum: **55556** · node P2P: **16121**. Existing data directories and ports are retained. Both services use the same immutable AMD64 and ARM64 container image digest.
 
